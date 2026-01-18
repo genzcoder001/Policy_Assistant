@@ -1,0 +1,31 @@
+# Task List for Policy Assistant
+
+- [x] Project Setup
+    - [x] Create directory structure
+    - [x] Set up minimal environment files
+    - [x] Create virtual environment `dev_env`
+- [x] Planning
+    - [x] Create implementation plan
+    - [x] Define API structure
+    - [x] Define RAG pipeline architecture
+- [x] Backend Development (FastAPI)
+    - [x] Setup FastAPI server and Pydantic models
+    - [x] Implement text embedding and FAISS index
+    - [x] Integrate LLM for RAG responses
+    - [x] Implement "sensitive topic" and "ambiguity" handling logic
+    - [x] Create endpoints (query, health)
+- [x] Frontend Development (Next.js)
+    - [x] Setup Next.js project
+    - [x] Create minimal chat interface
+    - [x] Connect to Backend API
+- [x] Verification & Polish
+    - [x] Test RAG flow with dummy policy data
+    - [x] Validate security (API keys, input validation)
+    - [x] Verify UI responsiveness
+    - [x] Create Walkthrough/Documentation
+
+- [ ] Current Session Verification
+    - [ ] Verify Backend Configuration (API Keys)
+    - [x] Install/Verify Dependencies
+    - [ ] Verify Backend Health Check
+    - [ ] Verify Frontend Build
