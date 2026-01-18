@@ -14,3 +14,16 @@ node_modules/
 # Secrets
 *.key
 *.pem
+# Data / embeddings
+data/
+backend/rag/chunk_metadata.json
+backend/rag/faiss.index
+*.json
+*.txt
+chunks/
+parsed_sources/
+filtered_sources/
+*.index
+*.faiss
+
+plan/
